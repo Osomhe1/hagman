@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+ 
+}
+
+body{
+    color: #202124;
+    background: #fff;
+
+ }
+
+.container{
+    height: 87vh;
+    overflow: hidden;
+
+    /* I tried making the gmail start first instead of the img but it's also not working */
+    
+    /* flex-direction: row-reverse; */
+}
+
+.head-left{
+    display: flex;
+    float: left;
+    padding: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #202124;
+    cursor: pointer;
+    flex-direction: column-reverse;
+}
+
+
+.head-right{
+    display: inline;
+    float: right;
+    padding: 30px;
+    font-size: 20px;
+    text-justify:center ;
+    float: inline-start;
+    color: #202124;
+    direction: ltr;
+    cursor: pointer;
+    text-decoration: none;
+    flex-direction: column-reverse;
+} 
+
+.img{
+    border-radius: 50%;
+    
+}
+#search-bar{
+    background:#acacac;
+    border: #fff solid 1px;
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 80px;
+    padding-right: 60px;
+    color: #fff;
+}
+
+.element1{
+    display:inline-block;
+    margin-left: 600px;
+     width:200px; 
+  background-color:#acacac;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+   position: relative; 
+top: -210px;
+border: 1px solid black;
+cursor: pointer;
+} 
+
+
+.element2 {
+    display:inline-block;
+     width:200px;
+     background-color:#acacac;
+      /* margin-right: 50px;  */
+     position: relative;
+      text-align: center;
+  justify-content: center;
+  align-items: center; 
+  border: 1px solid black;
+  top: -210px;
+    cursor: pointer;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+#img-back{
+    width: 100%;
+    justify-content: center;
+    padding: 90px;
+    text-align: center;
+    align-content: center;
+    margin-top: 50px;
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    display: block;
+    
+}
+
+footer{
+    background-color: darkgray;
+    
+    margin: 0;
+}  
+
+ #footer {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+     /* if i use any other display it does not work in the middle foter, I don't know why it's like that. */
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #acacac;
+    margin: 0;
+   
+}
+
+.left-footer{
+    display: inline;
+    float: left;
+    padding: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #202124;
+    cursor: pointer;
+    background-color: #acacac;
+}
+
+.right-footer{
+    display: flex;
+    float: right;
+    padding: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #202124;
+    cursor: pointer;
+    background-color: #acacac;
+}  
+
+ .middle-footer{
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #202124;
+    cursor: pointer;
+    align-items: center; 
+    margin-left: 200px;
+}
+

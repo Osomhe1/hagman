@@ -1,0 +1,29 @@
+body{
+    background: #444;
+
+
+}
+#header{
+    background: #33aa33;
+    padding: 0px;
+    margin: 50px;
+
+}
+
+#navbar li{
+    list-style: none;
+    display: inline;
+    padding: 0;
+justify-content: space-evenly;
+width: 100%;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.container p{
+    
+
+}
